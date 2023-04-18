@@ -35,17 +35,14 @@ for (let i = 0; i <= 3; i++) {
 
 
   if (Pj_eleccion == Pc_eleccion) {
-    alert("Empate!");
-    alert(`La ia eligio ${Pc_eleccion}`);
+    alert(`Empate! La ia eligio ${Pc_eleccion}`);
   } else if (Pj_eleccion == "tijera" && Pc_eleccion == "papel" || 
              Pj_eleccion == "papel" && Pc_eleccion == "piedra"  || 
              Pj_eleccion == "piedra" && Pc_eleccion == "tijera"){
-    alert("Ganaste");
-    alert(`La ia eligio ${Pc_eleccion}`);
+    alert(`Ganaste! la ia eligio ${Pc_eleccion}`);
     jugador_gana++;
   } else {
-    alert("Perdiste");
-    alert(`La ia eligio ${Pc_eleccion}`);
+    alert(`Perdiste! la ia eligio ${Pc_eleccion}`);
     computadora_gana++;
   }
 
